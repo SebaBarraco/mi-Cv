@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    word-wrap: break-word;
+    list-style-type: none;
+}
+
+body { 
+   font-family: 'Roboto', sans-serif;
+   background-image: linear-gradient(rgb(0,145,245), rgb(255, 255, 255));
+   background-repeat: no-repeat;
+   width: 80%;
+   margin: auto;
+}
+
+header {
+    padding: 10px;
+    text-align: right;
+    font-size: 3vw;
+    color: lightgrey;  
+}
+
+section{
+    height: 550px;
+}
+
+img {
+    position: absolute; 
+    width: 15vw;
+    border-radius: 50%;
+    top: 4%;
+    left: 15%;
+}
+
+#foto{
+    height: 30px;
+}
+
+nav { 
+    float: left;
+    width:30%;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    font-size: 2.5vw;
+    list-style-type: none;
+    color: rgb(90, 90, 90);   
+}
+ 
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+
+article {
+    float: left;
+    padding: 0px 0px 0px 15px;
+    height:520px;
+    width: 70%;
+    word-wrap: break-word;
+    background: rgb(220, 220, 220, 0.5);
+}
+
+footer{
+    text-align: right;
+    height: 60px;
+}
+
+#pie{
+    display: inline;    
+    color: grey;
+}
+
+#infoDatos {
+    display: inline;
+}
+
+#infoFormacion, #infoOtros, #infoAntecedentes {
+    display: none;
+}
+
+#datos{
+    background: rgb(220, 220, 220, 0.5);
+    padding: 5px; 
+    border-radius: 10px 0px 0px 10px;
+}
+
+#formacion, #otros, #antecedentes, #cv-pdf{
+    background: none; 
+    padding: 5px;  
+    border-radius: 10px 0px 0px 10px;
+}
+
+li {
+    height: auto;
+    margin-top: 0px;
+    cursor: pointer;    
+}
+
+#datos:hover {
+    font-style: italic;
+}
+
+#formacion:hover{
+    font-style: italic;
+}
+
+#otros:hover{
+    font-style: italic;
+}
+
+#antecedentes:hover{
+    font-style: italic;
+}
+
+#cv-pdf:hover{
+    font-style: italic;
+}
+
+a:link, a:visited {
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+    cursor: pointer; 
+}
+  
